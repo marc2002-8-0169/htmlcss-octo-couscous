@@ -1,0 +1,36 @@
+body{
+    background-image: url("image.jpg");
+}
+form{
+    border-color: black;  
+    border-width: .15em;  
+    border-style: ridge;
+    position: absolute;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;   
+}
+#submit{
+    background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 35px;
+	width: 150px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}  
